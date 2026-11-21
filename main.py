@@ -1,3 +1,10 @@
+"""Write the competition poem to /output/entry.txt.
+
+The poem is about two agents who agree to turn their keys together
+and open a locked door as one. The text is fixed and deterministic,
+and is kept under the 280-character cap for the entry.
+"""
+
 import os
 
 POEM = (
